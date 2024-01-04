@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@400;700&family=Playfair+Display&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit';
@@ -7,28 +12,35 @@ body{
 
 div{
     background-color: white;
-    width: 620px;
-    height: 800px;
+    width: 320px;
+    height: 480px;
     border-radius: 15px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
     margin: auto;
-    margin-top: 20px;
+    margin-top: 200px;
+    text-align: center;
 }
 
 img{
     border-radius: 15px;
-    display: block;
-    margin: auto;
+    width: 290px;
+    height: 290px;
     padding-top: 20px;
 }
 
 h1{
     text-align: center;
     font-weight: 700;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 p{
     text-align: center;
     font-weight: 400;
     font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
